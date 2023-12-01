@@ -1,0 +1,21 @@
+services:
+
+  mongodb:
+    extends:
+      file: tracking-service/docker-compose.yml
+      service: mongodb
+
+  tracking-service-prod:
+    extends:
+      file: tracking-service/docker-compose.yml
+      service: tracking-service
+
+  account-service-prod:
+    extends:
+      file: account_service/docker-compose.yaml
+      service: php
+
+  database:
+    extends:
+      file: account_service/docker-compose.yaml
+      service: database
