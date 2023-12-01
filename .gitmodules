@@ -1,0 +1,6 @@
+[submodule "tracking-service"]
+	path = tracking-service
+	url = ./tracking-service/.git
+[submodule "account_service"]
+	path = account_service
+	url = ./account_service/.git
