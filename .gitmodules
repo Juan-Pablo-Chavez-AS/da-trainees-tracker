@@ -1,6 +1,6 @@
 [submodule "tracking-service"]
 	path = tracking-service
-	url = git@github.com:JoseLozadaAD/tracking-service.git
+	url = https://github.com/JoseLozadaAD/tracking-service.git
 [submodule "account_service"]
 	path = account_service
-	url = git@github.com:jacovzap-assuresoft/account_service.git
+	url = https://github.com/jacovzap-assuresoft/account_service.git
